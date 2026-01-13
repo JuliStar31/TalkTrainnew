@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "TalkTrainer",
+    "slug": "talktrainer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.talktrainer.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#3b82f6"
+      },
+      "package": "com.talktrainer.app"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4e1bed41-8967-4ef4-b27d-ba1cf33c2704"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
